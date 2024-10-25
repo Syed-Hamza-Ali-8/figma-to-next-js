@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #CFA6A61C;
+    --foreground: #171717;
+    --customPink: #F98585;
+    --customBlue: #21243D;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #CFA6A61C;
+        --foreground: #171717;
+        --customPink: #F98585;
+        --customBlue: #21243D;
+    }
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-shadow {
+    box-shadow: "0 4px 4px 0 #4141418a";
+}
